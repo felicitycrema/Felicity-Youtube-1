@@ -72,13 +72,38 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    height: 40px;
+    height:20px;
     padding: 0 24px;
     font-size: 14px;
     font-weight: 400;
-    cursor: pointer;
-    
+    cursor: pointer;   
+    margin: 20px 0px; 
 }
+
+.category img {
+   
+    display: flex; 
+    border-radius: 50%;
+    margin: 8px 10px;
+}
+
+
+/* .category svg:last-child {
+    width: 100%; 
+     display: flex; 
+     margin: 8px 5px; 
+     padding: 2px 14px;
+  
+    align-items: center;
+    height: 20px;
+    
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;  
+  } */
+
+
+
 .categories {
     width: 240px;
     height: 100%;
@@ -106,6 +131,7 @@ body {
     background: #d0d0d0;
     font-weight: 500;
 }
+
 .active:hover {
     background: #d0d0d0;
 }
@@ -114,9 +140,9 @@ body {
 }
 
 .categories-footer {
-    margin:25px;
-    
+    margin:25px;    
 }
+
 .footer-section {
     margin-bottom: 12px;
 }
